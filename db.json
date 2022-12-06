@@ -1,0 +1,838 @@
+{  "brand":[
+  {
+    "image":"https://img.gkbcdn.com/s3/bb/eleglide-20220531151324673.jpg",
+    "name":"canon"
+  },
+  {
+    "image":"https://banner2.cleanpng.com/20180412/ysq/kisspng-vivo-logo-smartphone-branding-5acf57274b6e50.967449261523537703309.jpg",
+    "name":"vivo"
+  },
+  {
+    "image":"data:image/png;base64,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",
+    "name":"mi"
+  },
+  {
+    "image":"https://e7.pngegg.com/pngimages/650/1002/png-clipart-dell-laptop-lenovo-logo-lg-electronics-text.png",
+    "name":"lenova"
+  },
+  {
+    "image":"data:image/png;base64,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",
+    "name":"boat"
+  }
+  
+],
+  "brandpage":[
+              {
+                "image":"https://img.gkbcdn.com/s3/bb/eleglide-20220531151324673.jpg"
+              },
+              
+                {
+                  "image":"https://img.gkbcdn.com/s3/bb/jimmy-20200910094916929.jpg"
+                },
+              
+              {
+                "image":"https://img.gkbcdn.com/s3/bb/roborock-20211111211035580.jpg"
+              },
+              {
+                "image":"https://img.gkbcdn.com/s3/bb/tronsmart-20210123120544453.jpg"
+              },
+              {
+                "image":"https://img.gkbcdn.com/s3/bb/bezior-20211111210912370.jpg"
+              },
+              {
+                "image":"https://img.gkbcdn.com/s3/bb/kugookirin-20220727164736534.jpg"
+              }
+],
+  "New":[
+              {
+                "name":"JIMMY JV85 Pro Cordless Handheld Flexible Vacuum Cleane",
+                "price":19300,
+                "category":"sports",
+                "brand":"philips",
+                "rating":6.7,
+                "image":"https://img.gkbcdn.com/p/2022-03-24/Jimmy-BX7-Pro-Handheld-Anti-mite-Vacuum-Cleaner-498211-0._w280_p1_.jpg"
+              },
+              {
+                "name": "Xiaomi Mi Curved Gaming Monitor 34 inch",
+                "brand": "Xiaomi",
+                "category":"electronic",
+                "price": 33715,
+                "rating":5.6,
+                "image":"https://img.gkbcdn.com/p/2022-06-24/Xiaomi-Mi-Curved-Gaming-Monitor-34-inch-506867-0._w280_p1_.jpg"
+          
+              },
+              {
+                "name": "lenova ideapad-30",
+                "brand": "lenova",
+                "category":"electronic",
+                "price": 120000,
+                "rating":6.7,
+                "image":"https://img.gkbcdn.com/p/2021-11-03/one-netbook-4-platinum-laptop-i7-1160g7-16gb-ddr4-ram-1tb-black-1635931150152._w280_p1_.jpg"
+                
+              },
+              {
+                "name": "Canon E50 mark !!DSlr",
+                "brand": "Canon",
+                "category":"electronic",
+                "price": 59000,
+                "rating":5.7,
+                "image":"https://rukminim1.flixcart.com/image/312/312/knyxqq80/dslr-camera/r/y/x/digital-camera-eos-m50-mark-ii-eos-m50-mark-ii-canon-original-imag2gzkexzqhyhu.jpeg?q=70"
+                
+              },
+              {
+                "name": "boat rockers515",
+                "brand": "boat",
+                "category":"phon",
+                "price": 1005,
+                "rating":7.7,
+                "image":"https://rukminim1.flixcart.com/image/612/612/l3vxbbk0/headphone/b/v/u/-original-imagewuzqrqktf6m.jpeg?q=70"
+                
+              },
+              {
+                "name": "One Netbook OneGx1 Gaming Laptop 7-inc",
+                "brand": "lenova",
+                "category":"electronic",
+                "price": 55000,
+                "rating":6.7,
+                "image":"https://img.gkbcdn.com/p/2020-06-29/ONE-NETBOOK-OneGx1-intel-i5-10210Y-16GB-RAM-512GB-WiFi-Version-907423-._w280_p1_.jpg"
+                
+              },
+              {
+                "name": "vivo Y53S",
+                "brand": "vivo",
+                "category":"phon",
+                "price": 14999,
+                "rating":6.7,
+                "image":"https://rukminim1.flixcart.com/image/312/312/ks3jjbk0/mobile/p/b/k/y53s-v2058-vivo-original-imag5q35phmm3fjc.jpeg?q=70"
+                
+              },
+              {
+                "name": "boat airdrops bluetooth",
+                "brand": "boat",
+                "category":"phon",
+                "price": 1045,
+                "rating":7.7,
+                "image":"https://rukminim1.flixcart.com/image/612/612/ksdjma80/headphone/o/f/c/airdopes-131-airdopes-138-boat-original-imag5yz96jehyqrg.jpeg?q=70"
+                
+              },
+              {
+                "name":"KingSmith WalkingPad R2 Treadmill Smart Folding ",
+                "price":1200,
+                "category":"sports",
+
+                "rating":5.7,
+                "image":"https://img.gkbcdn.com/p/2021-08-16/WalkingPad-R2-Treadmill-Smart-Folding-Walking-and-Running-Machine-470540-0._w280_p1_.jpg"
+              },
+              {
+                "name": "lenova ideapad-30",
+                "brand": "lenova",
+                "category":"electronic",
+                 "price": 120000,
+                "rating":6.7,
+                "image":"https://img.gkbcdn.com/p/2021-11-03/one-netbook-4-platinum-laptop-i7-1160g7-16gb-ddr4-ram-1tb-black-1635931150152._w280_p1_.jpg"
+                
+              },
+              {
+                "name": "lenova ideapad-30",
+                "brand": "lenova",
+                "category":"electronic",
+                "price": 120000,
+                "rating":6.7,
+                "image":"https://img.gkbcdn.com/p/2021-11-03/one-netbook-4-platinum-laptop-i7-1160g7-16gb-ddr4-ram-1tb-black-1635931150152._w280_p1_.jpg"
+                
+              },
+              {
+                "name":"Folding Rowing Machine LCD Display Tablet ",
+                "brand": "lenova",
+                "category":"sports",
+                "price":37000,
+                "rating":5.7,
+                "image":"https://img.gkbcdn.com/p/2020-04-23/2019-Folding-Fitness-Rowing-Machine-Grey-902219-._w280_p1_.jpg"
+              },
+              {
+                "name":"ACME Francesca PU Upholstered Dining Chair Set of ",
+                "price":18300,
+                "category":"kitchen",
+
+                "rating":7.7,
+                "image":"https://img.gkbcdn.com/p/2021-08-24/ACME-Northville-Arm-Chair--Set-2--in-PU---Antique-Silver-66923-471224-0._w280_p1_.jpg"
+              },
+              {
+                "name":"JIMMY BX7 Pro Anti-Mite Vacuum Cleaner",
+                "price":12300,
+                "category":"kitchen",
+                "rating":5.7,
+                "image":"https://img.gkbcdn.com/p/2022-03-24/Jimmy-BX7-Pro-Handheld-Anti-mite-Vacuum-Cleaner-498211-0._w280_p1_.jpg"
+              },
+              {
+                "name":"Proscenic T22 Smart Electric Air Fryer Oil-Free",
+                "price":5300,
+                "category":"kitchen",
+               "rating":7.7,
+                "image":"https://img.gkbcdn.com/p/2021-11-16/Proscenic-T22-Oil-Free-Air-Fryer-478408-0._w280_p1_.jpg"
+              },
+              {
+                "name": "Xiaomi Cannon 2 Wireless Bluetooth",
+                "brand": "Xiaomi",
+                "category":"phon",
+                "price": 2080,
+                "rating":5.1,
+                "image":"https://img.gkbcdn.com/p/2019-08-29/xiaomi-cannon-2-wireless-bluetooth-speaker-black-1571991996904._w280_p1_.jpg"
+                
+              },
+              {
+                "name": "Global Version Xiaomi Redmi Note 11S 5G Smartpho",
+                "brand": "Xiaomi",
+                "category":"phon",
+
+                "price": 10200,
+                "rating":6.1,
+                "image":"https://img.gkbcdn.com/p/2022-06-21/global-version-xiaomi-redmi-note-11s-smartphone-midnight-black-5197d3-1655797378039._w280_p1_.jpg"
+                
+              },
+              {
+                "name":"Adjustable Dumbbell 25 lbs",
+                "price":7300,
+                "category":"sports",
+                "rating":6.7,
+                "image":"https://img.gkbcdn.com/p/2021-03-02/Adjustable-Dumbbell-25-lbs-with-Fast-Automatic-Adjustable-and-Weight-Plate-for-Body-Workout-Home-Gym--black--Note--Single-455371-0._w280_p1_.jpg"
+              },
+              {
+                "name":"Calmdo CD-AF25EU 12 in 1 Smart Air Fryer Toaster Oven",
+                "price":15300,
+                "category":"kitchen",
+
+                "rating":6.7,
+                "image":"https://img.gkbcdn.com/p/2022-07-19/Calmdo-CD-AF25EU-1800W-25L-Extra-Large-Air-Fryer-Toaster-Oven-508997-0._w280_p1_.jpg"
+              },
+              {
+                "name":"Orisfur 82.6 3-Seat Linen Upholstered Sofa with Ottoman",
+                "price":53000,
+                "category":"kitchen",
+
+                "rating":5.7,
+                "image":"https://img.gkbcdn.com/p/2021-07-22/Orisfur--Reversible-Sectional-Sofa-with-Handy-Side-Pocket-Living-Room-L-Shape-3-Seater-Couch-with-Modern-Linen-Fabric-for-Small-Space-461498-1._w280_p1_.jpg"
+              },
+              {
+                "name": "vivo T1X",
+                "brand": "vivo",
+                "category":"phon",
+                 "price": 10999,
+                "rating":6.7,
+                "image":"https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/8/a/y/-original-imaggbtszycsgjp5.jpeg?q=70"
+                
+              }
+
+           ] , 
+  "sports":[
+          {
+            "name":"JANOBIKE E20 Fat Tire Electric Folding Mountain Bike",
+            "price":12300,
+            "rating":5.7,
+            "image":"https://img.gkbcdn.com/p/2022-06-25/janobike-e20-folding-electric-mountain-bike-1000w-motor-black-73515d-1656135199658._w280_p1_.jpg"
+          },
+          {
+            "name":"Folding Weight Bench Dumbbe",
+            "price":12300,
+            "rating":5.7,
+            "image":"https://img.gkbcdn.com/p/2021-12-29/Folding-Weight-Bench-Dumbbell-Barbell-Set-Home-Gym-489264-0._w280_p1_.jpg"
+          },
+          {
+            "name":"Adjustable Dumbbell 25 lbs",
+            "price":7300,
+            "rating":6.7,
+            "image":"https://img.gkbcdn.com/p/2021-03-02/Adjustable-Dumbbell-25-lbs-with-Fast-Automatic-Adjustable-and-Weight-Plate-for-Body-Workout-Home-Gym--black--Note--Single-455371-0._w280_p1_.jpg"
+          },
+          {
+            "name":"KingSmith WalkingPad R2 Treadmill Smart Folding ",
+            "price":1200,
+            "rating":5.7,
+            "image":"https://img.gkbcdn.com/p/2021-08-16/WalkingPad-R2-Treadmill-Smart-Folding-Walking-and-Running-Machine-470540-0._w280_p1_.jpg"
+          },
+          {
+            "name":"ACGAM T02P Smart Walking Machine 2",
+            "price":27000,
+            "rating":7.7,
+            "image":"https://img.gkbcdn.com/s3/l/label/Label54.png?20220819"
+          },
+            {
+            "name":"TREXM Magnetic Rowing Machine Compact Indoor Rower ",
+            "price":47000,
+            "rating":7.7,
+            "image":"https://img.gkbcdn.com/p/2021-03-02/TREXM-Magnetic-Rowing-Machine-Compact-Indoor-Rower-with-Magnetic-Tension-System--LED-Monitor-and-8-level-Resistance-Adjustment-Fitness-Equipment-for-Home-Gym-455293-0._w280_p1_.jpg"
+          },
+          {
+            "name":"Folding Rowing Machine LCD Display Tablet ",
+            "price":37000,
+            "rating":5.7,
+            "image":"https://img.gkbcdn.com/p/2020-04-23/2019-Folding-Fitness-Rowing-Machine-Grey-902219-._w280_p1_.jpg"
+          },
+          {
+            "name":"Elliptical Trainer Machine Upright Exercise ",
+            "price":27000,
+            "rating":7.7,
+            "image":"https://img.gkbcdn.com/p/2021-03-02/Elliptical-Trainer-Machine-Upright-Exercise-Bike-with-8-Level-Magnetic-Resistance-for-Home-Gym-Cardio-Workout-455314-0._w280_p1_.jpg"
+          },
+          {
+            "name":"Pure2Improve Gym Liquid Chalk 250ml",
+            "price":1000,
+            "rating":7.7,
+            "image":"https://img.gkbcdn.com/p/2021-01-23/Pure2Improve-Gym-Liquid-Chalk-250ml-432646-0._w280_p1_.jpg"
+          },
+          {
+            "name":"Fitness Dumbbell Sets Each With A 25-Pound ",
+            "price":25000,
+            "rating":9.7,
+            "image":"https://img.gkbcdn.com/p/2021-04-01/Adjustable-Dumbbell-Fitness-Dumbbell-with-Handle-and-Weight-Plate-for-Home-Gym-Note--Two-457914-0._w280_.jpg"
+          }
+
+        ],  
+        "kitchen":[
+          {
+            "name":"JIMMY BX7 Pro Anti-Mite Vacuum Cleaner",
+            "price":12300,
+            "rating":5.7,
+            "image":"https://img.gkbcdn.com/p/2022-03-24/Jimmy-BX7-Pro-Handheld-Anti-mite-Vacuum-Cleaner-498211-0._w280_p1_.jpg"
+          },
+          {
+            "name":"JIMMY JV85 Pro Cordless Handheld Flexible Vacuum Cleane",
+            "price":19300,
+            "rating":6.7,
+            "image":"https://img.gkbcdn.com/p/2022-03-24/Jimmy-BX7-Pro-Handheld-Anti-mite-Vacuum-Cleaner-498211-0._w280_p1_.jpg"
+          },
+          {
+            "name":"PU Backrest Dining Chair Set of 2,",
+            "price":18300,
+            "rating":6.7,
+            "image":"https://img.gkbcdn.com/p/2021-08-25/Middle-bar-chair--grey-breathing-leather--471280-0._w280_p1_.jpg"
+          },
+          {
+            "name":"Proscenic T22 Smart Electric Air Fryer Oil-Free",
+            "price":5300,
+            "rating":7.7,
+            "image":"https://img.gkbcdn.com/p/2021-11-16/Proscenic-T22-Oil-Free-Air-Fryer-478408-0._w280_p1_.jpg"
+          },
+          {
+            "name":"JOYA TXG-S5M6 Air Fryer 1700W 5.5L Large Capacity ",
+            "price":7300,
+            "rating":4.7,
+            "image":"https://img.gkbcdn.com/p/2022-07-26/JOYA-TXG-S5M6-Air-Fryer-5-5L-Stainless-Steel-509223-0._w280_p1_.jpg"
+          },
+          {
+            "name":"ACME Francesca PU Upholstered Dining Chair Set of ",
+            "price":18300,
+            "rating":7.7,
+            "image":"https://img.gkbcdn.com/p/2021-08-24/ACME-Northville-Arm-Chair--Set-2--in-PU---Antique-Silver-66923-471224-0._w280_p1_.jpg"
+          },
+          {
+            "name":"Calmdo CD-AF25EU 12 in 1 Smart Air Fryer Toaster Oven",
+            "price":15300,
+            "rating":6.7,
+            "image":"https://img.gkbcdn.com/p/2022-07-19/Calmdo-CD-AF25EU-1800W-25L-Extra-Large-Air-Fryer-Toaster-Oven-508997-0._w280_p1_.jpg"
+          },
+          {
+            "name":"Bathroom Furniture Set White Chipboard",
+            "price":17300,
+            "rating":6.1,
+            "image":"https://img.gkbcdn.com/p/2021-07-28/Bathroom-Furniture-Set-White-Chipboard-463129-0._w280_p1_.jpg"
+          },
+          {
+            "name":"Sonifer SF4014 1200W Household Popcorn Maker",
+            "price":5300,
+            "rating":5.7,
+            "image":"https://img.gkbcdn.com/p/2022-07-05/Sonifer-SF4014-1200W-Household-Popcorn-Maker-507556-1._w280_p1_.jpg"
+          },
+          {
+            "name":"Orisfur 82.6 3-Seat Linen Upholstered Sofa with Ottoman",
+            "price":53000,
+            "rating":5.7,
+            "image":"https://img.gkbcdn.com/p/2021-07-22/Orisfur--Reversible-Sectional-Sofa-with-Handy-Side-Pocket-Living-Room-L-Shape-3-Seater-Couch-with-Modern-Linen-Fabric-for-Small-Space-461498-1._w280_p1_.jpg"
+          },
+          {
+            "name":"Fridge-freezer 88L Total Volume, 8L ",
+            "price":30000,
+            "rating":5.7,
+            "image":"https://img.gkbcdn.com/p/2022-05-31/Fridge-freezer-88L-Total-Volume--8L-Freezer-Volume-501460-2._w280_p1_.jpg"
+          },
+          {
+            "name":"Basin Mixer Tap Chrome",
+            "price":1080,
+            "rating":5.7,
+            "image":"https://img.gkbcdn.com/p/2021-02-25/Basin-Mixer-Tap-Chrome-454259-0._w280_p1_.jpg"
+          },
+          {
+            "name":"U-STYLE 84 5-Seat Microfiber Upholstered Sofa ",
+            "price":100080,
+            "rating":7.7,
+            "image":"https://img.gkbcdn.com/p/2021-05-11/U-STYLE-2-Piece-Living-Room-Rivet-Modern-Upholstered-Set-with-cushions--459611-0._w280_p1_.jpg"
+          },
+          {
+            "name":"Bathroom Basin with Mixer Tap",
+            "price":7080,
+            "rating":6.7,
+            "image":"https://img.gkbcdn.com/p/2021-02-09/Bathroom-Basin-with-Mixer-Tap-Ceramic-Oval-White-447285-0._w280_p1_.jpg"
+          }
+
+
+        ],
+"bestseller":[
+        {
+          "name": "One Netbook OneGx1 Gaming Laptop 7-inc",
+          "brand": "lenova",
+          "price": 55000,
+          "rating":6.7,
+          "image":"https://img.gkbcdn.com/p/2020-06-29/ONE-NETBOOK-OneGx1-intel-i5-10210Y-16GB-RAM-512GB-WiFi-Version-907423-._w280_p1_.jpg"
+          
+        },
+        {
+          "name": "Type-C Hub 6 in 1 USB C to 4K HDMI+1000M RJ45+PD 100W Charge+USB 3.0*3 Dock for MacBook Windows Laptop",
+          "brand": "Xiaomi",
+          "price": 10000,
+          "rating":5.1,
+          "image":"https://img.gkbcdn.com/p/2022-08-05/Type-C-Hub-6-in-1-USB-C-to-4K-HDMI-1000M-RJ45-PD-100W-Charge-USB3-0-512238-0._w280_p1_.jpg"
+          
+        },
+        {
+          "name": "Canon E50 mark455 !!DSlr",
+          "brand": "Canon",
+          "price": 77000,
+          "rating":6.7,
+          "image":"https://rukminim1.flixcart.com/image/312/312/knyxqq80/dslr-camera/r/y/x/digital-camera-eos-m50-mark-ii-eos-m50-mark-ii-canon-original-imag2gzkexzqhyhu.jpeg?q=70"
+          
+        },
+        {
+          "name": "boat airdrops bluetooth",
+          "brand": "boat",
+          "price": 1045,
+          "rating":7.7,
+          "image":"https://rukminim1.flixcart.com/image/612/612/ksdjma80/headphone/o/f/c/airdopes-131-airdopes-138-boat-original-imag5yz96jehyqrg.jpeg?q=70"
+          
+        }
+      ],
+"trendingCat":[
+       {
+        "name":"Smart Home and Kitchen",
+        "image":"https://img.gkbcdn.com/bn/2205/488x2743-628f62882b40c91f8cd36998._p1_.jpg",
+
+        "para":"living room furniture,room cleaning robot,kushan,hoem cleaner vacumes,upto 60% off"
+
+       },
+       {
+        "name":"Electroic accessories",
+        "image":"https://img.gkbcdn.com/p/2020-05-12/HXSJ-S90-720P-HD-Webcam-For-Laptop-Desktop-TV-Black-904016-._w280_p1_.jpg",
+
+        "para":"mobile,camera,trimmer,laptop,headset upto 30-45% off"
+
+       },
+       {
+        "name":"Sports and Outdoors",
+        "image":"https://img.gkbcdn.com/p/2020-08-27/syl-08-electric-skateboard-off-road-with-remote-control-black-1598514023841._w280_p1_.jpg",
+        "para":"new e-ride,sports shoes,sports tack,doumble,resistnace tube upto 47% off."
+
+       }
+],
+    "electronic": [
+      {
+        "name": "Type-C Hub 6 in 1 USB C to 4K HDMI+1000M RJ45+PD 100W Charge+USB 3.0*3 Dock for MacBook Windows Laptop",
+        "brand": "Xiaomi",
+        "price": 10000,
+        "rating":5.1,
+        "image":"https://img.gkbcdn.com/p/2022-08-05/Type-C-Hub-6-in-1-USB-C-to-4K-HDMI-1000M-RJ45-PD-100W-Charge-USB3-0-512238-0._w280_p1_.jpg"
+        
+      },
+      {
+        "name": "One Netbook OneGx1 Gaming Laptop 7-inc",
+        "brand": "lenova",
+        "price": 55000,
+        "rating":6.7,
+        "image":"https://img.gkbcdn.com/p/2020-06-29/ONE-NETBOOK-OneGx1-intel-i5-10210Y-16GB-RAM-512GB-WiFi-Version-907423-._w280_p1_.jpg"
+        
+      },
+      {
+        "name": "Xiaomi Mi Curved Gaming Monitor 34 inch",
+        "brand": "Xiaomi",
+        "price": 33715,
+        "rating":5.6,
+        "image":"https://img.gkbcdn.com/p/2022-06-24/Xiaomi-Mi-Curved-Gaming-Monitor-34-inch-506867-0._w280_p1_.jpg"
+  
+      },
+      {
+        "name": "Xiaomi Mi Smart Standing Fan 2",
+        "brand": "Xiaomi",
+        "price": 6200,
+        "rating":5.1,
+        "image":"https://img.gkbcdn.com/p/2022-06-10/Xiaomi-Mi-Smart-Standing-Fan-2-501676-0._w280_p1_.jpg"
+        
+      },
+      {
+        "name": "Global Version Xiaomi Redmi Note 11S 5G Smartpho",
+        "brand": "Xiaomi",
+        "price": 10200,
+        "rating":6.1,
+        "image":"https://img.gkbcdn.com/p/2022-06-21/global-version-xiaomi-redmi-note-11s-smartphone-midnight-black-5197d3-1655797378039._w280_p1_.jpg"
+        
+      },
+      {
+        "name": "50pcs 3 Inch Xiaomi Photo Printing Paper Sticker for Xiaomi Pocket Photo Printer",
+        "brand": "Xiaomi",
+        "price": 1080,
+        "rating":5.1,
+        "image":"https://img.gkbcdn.com/p/2022-07-06/50pcs-xiaomi-photo-printing-paper-sticker-for-xiaomi-pocket-printer-2dc29e-1657110056765._w280_p1_.jpg"
+        
+      },
+  
+      {
+        "name": "XIAOMI Mi Band 7 Smart Bracelet",
+        "brand": "Xiaomi",
+        "price": 2080,
+        "rating":5.1,
+        "image":"https://img.gkbcdn.com/p/2022-05-25/xiaomi-mi-band-6-smart-bracelet-1-56-inch-screen-black-237984-1653467777344._w280_p1_.jpg"
+        
+      },
+      {
+        "name": "One Netbook OneGx1 Gaming Laptop 7-inc",
+        "brand": "lenova",
+        "price": 55000,
+        "rating":6.7,
+        "image":"https://img.gkbcdn.com/p/2020-06-29/ONE-NETBOOK-OneGx1-intel-i5-10210Y-16GB-RAM-512GB-WiFi-Version-907423-._w280_p1_.jpg"
+        
+      },
+      {
+        "name": "Xiaomi Wireless Mouse 2 ",
+        "brand": "Xiaomi",
+        "price": 4080,
+        "rating":7.1,
+        "image":"https://img.gkbcdn.com/p/2019-11-23/Xiaomi-Wireless-Mouse-2-White-888932-._w280_p1_.jpg"
+        
+      },
+      {
+        "name": "Xiaomi Cannon 2 Wireless Bluetooth",
+        "brand": "Xiaomi",
+        "price": 2080,
+        "rating":5.1,
+        "image":"https://img.gkbcdn.com/p/2019-08-29/xiaomi-cannon-2-wireless-bluetooth-speaker-black-1571991996904._w280_p1_.jpg"
+        
+      },
+      {
+        "name": "ALLDOCUBE GT BOOK LAPTOP 14.1 inch FHD intel Celeron N5100 12GB DDR4 RAM 512GB SSD WiFi6 Bluetooth 5.1 - EU Plug",
+        "brand": "lenova",
+        "price": 40000,
+        "rating":5.7,
+        "image":"https://img.gkbcdn.com/p/2022-05-20/ALLDOCUBE-GT-BOOK-LAPTOP-intel-Celeron-N5100-12GB-RAM-512GB-EU-Plug-501186-0._w280_p1_.jpg"
+        
+      },
+      {
+        "name": "One Netbook OneGx1 Gaming Laptop 7-inc",
+        "brand": "lenova",
+        "price": 55000,
+        "rating":6.7,
+        "image":"https://img.gkbcdn.com/p/2020-06-29/ONE-NETBOOK-OneGx1-intel-i5-10210Y-16GB-RAM-512GB-WiFi-Version-907423-._w280_p1_.jpg"
+        
+      },
+      {
+        "name": "Xiaomi Mi Smart Standing Fan 2",
+        "brand": "Xiaomi",
+        "price": 6200,
+        "rating":5.1,
+        "image":"https://img.gkbcdn.com/p/2022-06-10/Xiaomi-Mi-Smart-Standing-Fan-2-501676-0._w280_p1_.jpg"
+        
+      },
+      {
+        "name": "Canon E50 mark455 !!DSlr",
+        "brand": "Canon",
+        "price": 77000,
+        "rating":6.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/knyxqq80/dslr-camera/r/y/x/digital-camera-eos-m50-mark-ii-eos-m50-mark-ii-canon-original-imag2gzkexzqhyhu.jpeg?q=70"
+        
+      },
+      {
+        "name": "lenova ideapad-30",
+        "brand": "lenova",
+        "price": 120000,
+        "rating":6.7,
+        "image":"https://img.gkbcdn.com/p/2021-11-03/one-netbook-4-platinum-laptop-i7-1160g7-16gb-ddr4-ram-1tb-black-1635931150152._w280_p1_.jpg"
+        
+      },
+      {
+        "name": "vivo v9",
+        "brand": "vivo",
+        "price": 10000,
+        "rating":6.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/jhz5vgw0/mobile/2/h/n/vivo-v9-vivo-1723-original-imaf5vftzhdzkykk.jpeg?q=70"
+        
+      },
+      {
+        "name": "boat neo smart watch",
+        "brand": "boat",
+        "price": 2450,
+        "rating":7.7,
+        "image":"https://rukminim1.flixcart.com/image/612/612/l3ahpjk0/smartwatch/l/n/f/-original-imagegyh8dmdxrwh.jpeg?q=70"
+        
+      },
+      {
+        "name": "vivo T1X",
+        "brand": "vivo",
+        "price": 10999,
+        "rating":6.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/8/a/y/-original-imaggbtszycsgjp5.jpeg?q=70"
+        
+      },
+      {
+        "name": "Canon E50 mark85 !!DSlr",
+        "brand": "Canon",
+        "price": 59000,
+        "rating":5.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/knyxqq80/dslr-camera/r/y/x/digital-camera-eos-m50-mark-ii-eos-m50-mark-ii-canon-original-imag2gzkexzqhyhu.jpeg?q=70"
+        
+      },
+      {
+        "name": "vivo T1 40W",
+        "brand": "vivo",
+        "price": 14999,
+        "rating":6.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/l2p23rk0/mobile/x/b/y/-original-imagdznhnzmzfbwx.jpeg?q=70"
+        
+      },
+      {
+        "name": "boat rockers515",
+        "brand": "boat",
+        "price": 1005,
+        "rating":7.7,
+        "image":"https://rukminim1.flixcart.com/image/612/612/l3vxbbk0/headphone/b/v/u/-original-imagewuzqrqktf6m.jpeg?q=70"
+        
+      },
+      {
+        "name": "vivo Y53S",
+        "brand": "vivo",
+        "price": 14999,
+        "rating":6.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/ks3jjbk0/mobile/p/b/k/y53s-v2058-vivo-original-imag5q35phmm3fjc.jpeg?q=70"
+        
+      },
+      {
+        "name": "boat airdrops bluetooth",
+        "brand": "boat",
+        "price": 1045,
+        "rating":7.7,
+        "image":"https://rukminim1.flixcart.com/image/612/612/ksdjma80/headphone/o/f/c/airdopes-131-airdopes-138-boat-original-imag5yz96jehyqrg.jpeg?q=70"
+        
+      },
+      {
+        "name": "Canon E50 DSlr",
+        "brand": "Canon",
+        "price": 56000,
+        "rating":7.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/juwzf680/dslr-camera/g/a/q/200d-ii-200d-ii-canon-original-imaffvrhzyqzayys.jpeg?q=70"
+        
+      },
+      {
+        "name": "vivo v9",
+        "brand": "vivo",
+        "price": 10000,
+        "rating":6.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/jhz5vgw0/mobile/2/h/n/vivo-v9-vivo-1723-original-imaf5vftzhdzkykk.jpeg?q=70"
+        
+      },
+      {
+        "name": "Canon E50 mark !!DSlr",
+        "brand": "Canon",
+        "price": 59000,
+        "rating":5.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/knyxqq80/dslr-camera/r/y/x/digital-camera-eos-m50-mark-ii-eos-m50-mark-ii-canon-original-imag2gzkexzqhyhu.jpeg?q=70"
+        
+      },
+      {
+        "name": "vivo v9",
+        "brand": "vivo",
+        "price": 10000,
+        "rating":6.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/jhz5vgw0/mobile/2/h/n/vivo-v9-vivo-1723-original-imaf5vftzhdzkykk.jpeg?q=70"
+        
+      },
+      {
+        "name": "Canon E50 mark !!DSlr",
+        "brand": "Canon",
+        "price": 59000,
+        "rating":5.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/knyxqq80/dslr-camera/r/y/x/digital-camera-eos-m50-mark-ii-eos-m50-mark-ii-canon-original-imag2gzkexzqhyhu.jpeg?q=70"
+        
+      },
+      {
+        "name": "boat rocker370 blutooth headset",
+        "brand": "boat",
+        "price": 1145,
+        "rating":5.7,
+        "image":"https://rukminim1.flixcart.com/image/612/612/k7285u80/headphone/4/3/u/boat-rockerz-370-original-imafpdzhywghfabu.jpeg?q=70"
+        
+      }
+    ],
+    "laptop":[
+      {
+        "name": "lenova ideapad-30",
+        "brand": "lenova",
+        "price": 140000,
+        "rating":6.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/ktszgy80/computer/a/4/a/gf65-thin-10ue-410in-gaming-laptop-msi-original-imag72h6wn7ktgzy.jpeg?q=70"
+        
+      },
+      {
+        "name": "lenova ideapad-30KL",
+        "brand": "lenova",
+        "price": 120000,
+        "rating":6.7,
+        "image":"https://img.gkbcdn.com/p/2021-11-03/one-netbook-4-platinum-laptop-i7-1160g7-16gb-ddr4-ram-1tb-black-1635931150152._w280_p1_.jpg"
+        
+      },
+      {
+        "name": "lenova ideapad-30",
+        "brand": "lenova",
+        "price": 110000,
+        "rating":6.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/kp2y2kw0/computer/y/0/c/na-thin-and-light-laptop-asus-original-imag3ebnzawky4kn.jpeg?q=70"
+        
+      },
+      {
+        "name": "lenova LVD567",
+        "brand": "lenova",
+        "price": 80000,
+        "rating":6.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/kzrbiq80/computer/v/d/d/15s-fq2626tu-thin-and-light-laptop-hp-original-imagbpb2sztfprgz.jpeg?q=70"
+        
+      },
+      {
+        "name": "lenova TRS",
+        "brand": "lenova",
+        "price": 120000,
+        "rating":4.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/kp2y2kw0/computer/3/q/k/lenovo-original-imag3eht25nykhjn.jpeg?q=70"
+        
+      },
+      {
+        "name": "lenova ideapad-T30S",
+        "brand": "lenova",
+        "price": 140000,
+        "rating":7.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/l3rmzrk0/computer/s/z/r/-original-imagetgzg4pgszmt.jpeg?q=70"
+        
+      },
+      {
+        "name": "lenova ideapad-30S5",
+        "brand": "lenova",
+        "price": 100000,
+        "rating":7.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/kruyw7k0/computer/f/i/u/na-thin-and-light-laptop-lenovo-original-imag5jy6fsm2yx4q.jpeg?q=70"
+        
+      },
+      {
+        "name": "lenova Thinkpad-30",
+        "brand": "lenova",
+        "price": 57000,
+        "rating":5.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/kp2y2kw0/computer/y/0/c/na-thin-and-light-laptop-asus-original-imag3ebnzawky4kn.jpeg?q=70"
+        
+      },
+      {
+        "name": "lenova ideapad-301s",
+        "brand": "lenova",
+        "price": 120000,
+        "rating":6.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/l3rmzrk0/computer/s/z/r/-original-imagetgzg4pgszmt.jpeg?q=70"
+        
+      }
+  
+    ],
+    "camera":[
+      {
+        "name": "Canon mark455TFG !!DSlr",
+        "brand": "Canon",
+        "price": 57000,
+        "rating":6.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/jbpeavk0/dslr-camera/k/h/k/x100f-24-3-mp-aps-c-digital-camera-silver-x100f-fujifilm-original-imafy94epat46qdj.jpeg?q=70"
+        
+      },
+      {
+        "name": "Canon E50 mark655 ghi !!DSlr",
+        "brand": "Canon",
+        "price": 77000,
+        "rating":7.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/knyxqq80/dslr-camera/r/y/x/digital-camera-eos-m50-mark-ii-eos-m50-mark-ii-canon-original-imag2gzkexzqhyhu.jpeg?q=70"
+        
+      },
+      {
+        "name": "Canon TYmark455 !!DSlr",
+        "brand": "Canon",
+        "price": 47000,
+        "rating":5.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/khf63680/dslr-camera/x/3/f/digital-camera-eos-r5-eos-r5-canon-original-imafxg43yszy6uz4.jpeg?q=70"
+        
+      },
+      {
+        "name": "Canon E500S455 !!DSlr",
+        "brand": "Canon",
+        "price": 67000,
+        "rating":6.1,
+        "image":"https://rukminim1.flixcart.com/image/312/312/knyxqq80/dslr-camera/r/y/x/digital-camera-eos-m50-mark-ii-eos-m50-mark-ii-canon-original-imag2gzkexzqhyhu.jpeg?q=70"
+        
+      },
+      {
+        "name": "Canon F50 mark455 !!DSlr",
+        "brand": "Canon",
+        "price": 67000,
+        "rating":5.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/kr2e3680/dslr-camera/j/1/n/eos-m50-mark-ii-vlogger-kit-eos-m50-mark-ii-vlogger-kit-canon-original-imag4xzzrhfeycuu.jpeg?q=70"
+        
+      },
+      {
+        "name": "Canon E450S 455 !!DSlr",
+        "brand": "Canon",
+        "price": 71000,
+        "rating":7.3,
+        "image":"https://rukminim1.flixcart.com/image/312/312/camera/s/q/f/canon-eos-7d-mark-ii-body-dslr-original-imae3yryhwq7fgyx.jpeg?q=70"
+        
+      },
+      {
+        "name": "Canon E50  !!DSlr",
+        "brand": "Canon",
+        "price": 57000,
+        "rating":5.4,
+        "image":"https://rukminim1.flixcart.com/image/312/312/camera/8/r/g/canon-ixus-285-point-shoot-original-imaeg2ezzmyb4xmp.jpeg?q=70"
+        
+      },
+      {
+        "name": "Canon E50 mark455 !!DSlr",
+        "brand": "Canon",
+        "price": 45000,
+        "rating":7.7,
+        "image":"https://rukminim1.flixcart.com/image/300/300/jt4olu80/dslr-camera/6/t/g/eos-rp-rp-canon-original-imafejw5xnhnmk6z.jpeg?q=90"
+        
+      },
+      {
+        "name": "Canon E5076 mark455 !!DSlr",
+        "brand": "Canon",
+        "price": 57000,
+        "rating":8.7,
+        "image":"https://rukminim1.flixcart.com/image/300/300/jfbfde80/camera/n/r/n/canon-eos-eos-3000d-dslr-original-imaf3t5h9yuyc5zu.jpeg?q=90"
+        
+      },
+      {
+        "name": "Canon E50 mark455 !!DSlr",
+        "brand": "Canon",
+        "price": 77000,
+        "rating":6.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/knyxqq80/dslr-camera/r/y/x/digital-camera-eos-m50-mark-ii-eos-m50-mark-ii-canon-original-imag2gzkexzqhyhu.jpeg?q=70"
+        
+      },
+      {
+        "name": "Canon E50d mark455 !!DSlr",
+        "brand": "Canon",
+        "price": 57000,
+        "rating":6.7,
+        "image":"https://rukminim1.flixcart.com/image/312/312/jnyxd3k0/point-shoot-camera/x/a/p/dsc-rx100m5a-rx-series-4548736086487-sony-original-imaf6rvfzrf45nzu.jpeg?q=70"
+        
+      }
+     
+  
+    ]
+  
+    
+  }
